@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+  </head>
+  <body>
+    <h1>Login Page</h1>
+    <form id="loginForm">
+      <div>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required />
+      </div>
+      <div>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div>
+        <label for="contact">Contact:</label>
+        <input type="tel" id="contact" name="contact" required />
+      </div>
+      <div>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <input type="checkbox" id="terms" name="terms" required />
+        <label for="terms">I agree to the terms and conditions</label>
+      </div>
+      <div>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea>
+      </div>
+      <div>
+        <button type="button" id="saveButton">Save</button>
+        <button type="button" id="resetButton">Reset</button>
+      </div>
+    </form>
+    <script>
+      const form = document.getElementById("loginForm");
+      const saveButton = document.getElementById("saveButton");
+      const resetButton = document.getElementById("resetButton");
+      saveButton.addEventListener("click", function () {
+        alert("Form submitted!");
+      });
+      resetButton.addEventListener("click", function () {
+        form.reset();
+      });
+    </script>
+  </body>
+</html>

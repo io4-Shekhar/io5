@@ -1,0 +1,161 @@
+body {
+  background-color: #fef9f5;
+}
+
+header {
+  background-color: #fef9f5;
+  height: 50px;
+  box-shadow: 0 2px 5px 2px #e0dad7;
+}
+
+header nav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.nav-left p span:first-child {
+  color: #fe8366;
+}
+.nav-left p span:last-child {
+  color: #222222;
+}
+
+.mobile-menus .hamburger {
+  font-size: 3rem;
+  color: #908f8b;
+  display: none;
+}
+
+.brand-title {
+  text-transform: uppercase;
+}
+
+.nav-right ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-right ul li {
+  font-family: "Kanit", sans-serif;
+  list-style: none;
+  font-size: 2rem;
+  margin-right: 15px;
+  color: #908f8b;
+}
+
+.buy-button {
+  background-color: #3c4ff2;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  padding: 1.5%;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Kanit", sans-serif;
+  font-family: sans-serif;
+}
+.buy-button i {
+  background-color: #3c4ff2;
+  margin-right: 5px;
+  font-size: 2rem;
+}
+
+.mobile-menus .hamburger {
+  font-size: 3rem;
+  color: #908f8b;
+  display: none;
+}
+
+.brand-title {
+  text-transform: uppercase;
+}
+
+.nav-right ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-right ul li {
+  font-family: "Kanit", sans-serif;
+  list-style: none;
+  font-size: 2rem;
+  margin-right: 15px;
+  color: #908f8b;
+}
+
+/* -- banner section start*/
+.banner-section {
+  background-color: #fef9f5;
+}
+
+.banner-section img {
+  background-color: transparent;
+}
+
+.banner-section .banner {
+  background-color: #fef9f5;
+  height: 50vh;
+  width: 80%;
+  margin: 1% auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.banner-section .banner {
+  padding: 0 5%;
+}
+.banner-section .banner .banner-left,
+.banner-section .banner .banner-right {
+  width: 50%;
+}
+
+.banner-section .banner .banner-left {
+  position: relative;
+}
+
+.banner-section .banner .banner-left .shoe-background {
+  position: absolute;
+  background-color: #757a80;
+  border-radius: 50%;
+  width: 48%;
+  height: 329px;
+  bottom: -46%;
+  left: 10%;
+}
+
+.banner-section .banner .banner-right {
+  font-size: 8rem;
+}
+.banner-section .banner .banner-right h2:first-child {
+  color: red;
+}
+
+.banner-section .banner .banner-right h2:last-child {
+  color: black;
+}
+
+.banner-section .banner .banner-right p {
+  font-size: 2rem;
+  font-family: "Kanit", sans-serif;
+}
+/* -- banner section ends*/

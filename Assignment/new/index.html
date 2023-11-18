@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
+      integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-sides nav-left pointer">
+          <img
+            src="./assets/images/logos/logo.png"
+            alt="nike logo"
+            width=" 70px"
+            height=" 30px"
+          />
+          <p class="brand-title"><span>Nike</span> <span>React</span></p>
+        </div>
+        <div class="nav-sides nav-right">
+          <!-- <ul>
+            <li class="menus pointer home">Home</li>
+            <li class="menus pointer product">Product</li>
+            <li class="menus pointer about-us">About us</li>
+            <li class="menus pointer contact-us">Contact us</li>
+          </ul> -->
+        </div>
+        <div class="mobile-menus">
+          <i class="fa-solid fa-bars hamburger" id="hamburger"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- Main banner starts-->
+    <section class="banner-section">
+      <div class="banner">
+        <div class="banner-left">
+          <div class="shoe-background"></div>
+          <img
+            src="./assets/images/products/shoe10.png"
+            alt="shoes 9"
+            width="65%"
+            class="product-rotation-30deg"
+          />
+        </div>
+        <div class="banner-right">
+          <h2 class="banner-text">Nike React</h2>
+          <h2 class="banner-text">Infinity Run 2</h2>
+          <p id="p-id">
+            Nike shoes offer great comfort and maintain your feet posture every
+            time you walk. Nike is one of the most popular brands of footwear
+          </p>
+
+          <button class="buy-button pointer" id="buy-later-button">
+            <i class="fa-solid fa-cart-shopping"></i>Buy Later
+          </button>
+
+          <button class="buy-button pointer" id="buy-button">
+            <i class="fa-solid fa-cart-shopping"></i>Buy Now
+          </button>
+
+          <button class="buy-button pointer" id="add-to-cart">
+            <p id="count">1</p>
+            <a id="link">C</a>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+
+          <button class="buy-button pointer" id="buy-button">
+            <i class="fa-solid fa-square-check"></i>Done
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- <script src="./script.js"></script> -->
+    <script src="./dom.js"></script>
+  </body>
+</html>

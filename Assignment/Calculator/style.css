@@ -12,6 +12,7 @@ body {
   padding: 10px;
   background-color: antiquewhite;
   text-align: center;
+  box-shadow: 0 8px 50px -7px rgb(119, 36, 36);
 }
 
 #display {
@@ -30,10 +31,15 @@ body {
   gap: 11px;
   color: aqua;
 }
-
 button {
   padding: 10px;
   font-size: 16px;
   color: black;
   background-color: aqua;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: rgb(124, 177, 186);
+  border-radius: 0px;
 }

@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#stopwatch {
+  padding: 5px;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+#controls {
+  text-align: center;
+  margin-left: -14.5%;
+  padding: 5px;
+}
+
+button {
+  width: 70px;
+  height: 30px;
+  font-size: 1em;
+  margin: 0 10px;
+}

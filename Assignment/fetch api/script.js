@@ -6,9 +6,8 @@ const fetchCont = async () => {
   console.log("----2----");
   const apiResponse = await fetch(api);
   const data = await apiResponse.json();
-  // console.log("data-0--", data);
+  // console.log("data-0--",);
   // console.log("----3----", data[0]?.name?.common);
-
   data.forEach((countries) => {
     const { flags: { svg, alt } = {} } = countries || {};
     console.log("countries", countries);
@@ -21,11 +20,7 @@ const fetchCont = async () => {
     <h5 class="card-title">${countries?.name?.common}</h5>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">Language: ${
-      Array.isArray(countries?.languages)
-        ? countries?.languages.map((lan) => lan)
-        : countries?.languages
-    }</li>
+    <li class="list-group-item">Language: ${countries?.languages}</li>
     <li class="list-group-item">Population: ${countries?.population}</li>
     <li class="list-group-item">Continent: ${countries?.continents.map(
       (vinay) => vinay

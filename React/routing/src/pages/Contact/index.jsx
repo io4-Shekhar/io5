@@ -1,13 +1,12 @@
 import React from "react";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import ContactForm from "../../components/ContactForm";
-
+import Header from "../../Component/Header";
+import Footer from "../../Component/Footer";
+import ContactForm from "../../Component/ContactFrom";
+import "./style.css";
 function Contact() {
   return (
     <React.Fragment>
       <Header />
-
       <ContactForm />
       <Footer />
     </React.Fragment>

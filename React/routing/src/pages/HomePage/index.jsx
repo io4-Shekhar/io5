@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import ImageSliders from "../../components/ImageSliders";
+import Header from "../../Component/Header/index.jsx";
+import Footer from "../../Component/Footer/index.jsx";
+import ImageSliders from "../../Component/ImageSliders";
 
-function HomePage() {
+const HomePage = () => {
   return (
     <React.Fragment>
       <Header />
@@ -11,6 +11,6 @@ function HomePage() {
       <Footer />
     </React.Fragment>
   );
-}
+};
 
 export default HomePage;

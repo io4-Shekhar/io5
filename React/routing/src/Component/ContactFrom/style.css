@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;500;700&display=swap");
+
+.contact-container {
+  background-image: url("https://w0.peakpx.com/wallpaper/220/654/HD-wallpaper-dark-blue-pattern-abstract-background-dark-blue-design-drawings-geometric-simple-texture.jpg");
+  height: 300px;
+  margin: 30px 90px;
+  border-radius: 20px;
+}
+.h2 {
+  padding-top: 50px;
+  color: #ffffff;
+  font-family: Outfit;
+  text-align: center;
+}
+.para {
+  color: white;
+  font-family: Outfit;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 0px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  margin-top: 10px;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-family: Outfit;
+  color: #1e2835;
+  font-weight: bold;
+  font-size: 15px;
+}

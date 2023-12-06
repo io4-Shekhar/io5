@@ -7,6 +7,10 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 function Header() {
+  // const date = new getDate();
+  // const month = new getmonth();
+  // const year = new getyear();
+
   return (
     <React.Fragment>
       <Navbar expand="lg" className="bg-body-tertiary">

@@ -10,19 +10,6 @@ function Products() {
       <Header />
       <div className="product-container">
         <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
       </div>
       <Footer />
     </React.Fragment>

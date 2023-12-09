@@ -89,16 +89,16 @@ function SignUpForm() {
         <div className="submit-data">
           <h3>
             First Name:
-            <strong>{formData.firstName}</strong>
+            <strong> {formData.firstName}</strong>
           </h3>
           <h3>
-            Last Name:<strong>{formData.lastName}</strong>
+            Last Name: <strong>{formData.lastName}</strong>
           </h3>
           <h3>
-            Email:<strong>{formData.email}</strong>
+            Email: <strong>{formData.email}</strong>
           </h3>
           <h3>
-            password:<strong>{formData.password}</strong>
+            password: <strong>{formData.password}</strong>
           </h3>
         </div>
       </div>

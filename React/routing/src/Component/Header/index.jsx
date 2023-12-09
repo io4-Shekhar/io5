@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -7,10 +7,19 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 function Header() {
-  // const date = new getDate();
-  // const month = new getmonth();
-  // const year = new getyear();
+  const [secs, setSecs] = useState(new Date().getSeconds());
 
+  const date = new Date().getDate();
+  const month = new Date().getMonth();
+  const year = new Date().getFullYear();
+  const hours = new Date().getHours();
+  const minute = new Date().getMinutes();
+  const sec = new Date().getSeconds();
+
+  // console.log("", hours, minute, sec);
+  setInterval(() => {
+    setSecs(new Date().getSeconds());
+  }, 1000);
   return (
     <React.Fragment>
       <Navbar expand="lg" className="bg-body-tertiary">
@@ -36,6 +45,9 @@ function Header() {
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
+          <h4>
+            {date}/{month + 1}/{year}|{hours}:{minute}:{secs}
+          </h4>
         </Container>
       </Navbar>
     </React.Fragment>
